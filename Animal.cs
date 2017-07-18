@@ -1,8 +1,8 @@
 using System;
 
-namespace forest_animals
+namespace ForestAnimals
 {
-    public class Animals
+    public class Animal
     {
         public string Fur { get; set; }
         public int LegAmount { get; set; }

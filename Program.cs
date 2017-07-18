@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace forest_animals
+namespace ForestAnimals
 {
     class Program
     {
@@ -9,27 +9,27 @@ namespace forest_animals
             Forest lachia = new Forest("Poplar City", "East");
             Forest redwood = new Forest("Big Red Trees", "West");
 
-            var squirrel = new Animals {
+            var squirrel = new Animal {
                 Fur = "gray",
                 LegAmount = 2,
                 Name = "Squirrel"
             };
-            var bear = new Animals {
+            var bear = new Animal {
                 Fur = "blue",
                 LegAmount = 4,
                 Name = "Blue Bear"
             };
-            var raccoon = new Animals {
+            var raccoon = new Animal {
                 Fur = "black",
                 LegAmount = 4,
                 Name = "Raccoon"
             };
-            var bobcat = new Animals {
+            var bobcat = new Animal {
                 Fur = "brown",
                 LegAmount = 4,
                 Name = "Bobcat"
             };
-            var seal = new Animals {
+            var seal = new Animal {
                 Fur = "white",
                 LegAmount = 0,
                 Name = "Seal"

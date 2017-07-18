@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace forest_animals
+namespace ForestAnimals
 {
     public class Forest
     {
@@ -9,7 +9,7 @@ namespace forest_animals
 
         public string Location { get; set; }
 
-        List<Animals> Animals { get; set; } = new List<Animals>();
+        List<Animal> Animal { get; set; } = new List<Animal>();
 
         public Forest(string name, string location)
         {
@@ -17,14 +17,14 @@ namespace forest_animals
             Location = location;
         }
 
-        public void AddAnimal(Animals newAnimal)
+        public void AddAnimal(Animal newAnimal)
         {
-            Animals.Add(newAnimal);
+            Animal.Add(newAnimal);
         }
 
         public void ListAnimals()
         {
-            foreach (var animal in Animals)
+            foreach (var animal in Animal)
             {
                 Console.WriteLine($"{animal.Name} of {Name} in {Location} has fur of {animal.Fur} and {animal.LegAmount} many legs! ");
             }

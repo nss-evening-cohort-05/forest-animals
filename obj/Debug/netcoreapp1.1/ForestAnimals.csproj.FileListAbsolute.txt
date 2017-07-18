@@ -1,0 +1,8 @@
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/bin/Debug/netcoreapp1.1/ForestAnimals.deps.json
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/bin/Debug/netcoreapp1.1/ForestAnimals.runtimeconfig.json
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/bin/Debug/netcoreapp1.1/ForestAnimals.runtimeconfig.dev.json
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/ForestAnimals.AssemblyInfo.cs
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/bin/Debug/netcoreapp1.1/ForestAnimals.dll
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/bin/Debug/netcoreapp1.1/ForestAnimals.pdb
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/ForestAnimals.dll
+/Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/ForestAnimals.pdb
