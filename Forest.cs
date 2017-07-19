@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using forest_animals.Animals;
 
 namespace forest_animals
 {
@@ -9,7 +10,7 @@ namespace forest_animals
 
         public string Location { get; set; }
 
-        List<Animals> Animals { get; set; } = new List<Animals>();
+        List<Animal> Animals { get; set; } = new List<Animal>();
 
         public Forest(string name, string location)
         {
@@ -17,7 +18,7 @@ namespace forest_animals
             Location = location;
         }
 
-        public void AddAnimal(Animals newAnimal)
+        public void AddAnimal(Animal newAnimal)
         {
             Animals.Add(newAnimal);
         }
@@ -26,7 +27,20 @@ namespace forest_animals
         {
             foreach (var animal in Animals)
             {
-                Console.WriteLine($"{animal.Name} of {Name} in {Location} has fur of {animal.Fur} and {animal.LegAmount} many legs! ");
+                if (animal is IFurryAnimal) {
+                    Console.WriteLine($"{animal.Name} of {Name} in {Location} "+
+                                      $"{((IFurryAnimal)animal).TypeOfFur}!");                
+                }
+                else {
+                    Console.WriteLine($"{animal.Name} of {Name} in {Location}!");
+                }
+
+                var walkingAnimal = animal as IWalkingAnimal;
+                if (walkingAnimal != null)
+                {
+                    walkingAnimal.Walk(7);
+                }
+
             }
         }
 

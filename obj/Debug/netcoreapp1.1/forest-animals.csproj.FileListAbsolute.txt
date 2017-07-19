@@ -6,3 +6,11 @@
 /Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/forest-animals.AssemblyInfo.cs
 /Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/forest-animals.dll
 /Users/heatherthacker/workspace/HelloWorld/forest-animals/obj/Debug/netcoreapp1.1/forest-animals.pdb
+C:\Users\nathan.gonzalez\projects\forest-animals\bin\Debug\netcoreapp1.1\forest-animals.deps.json
+C:\Users\nathan.gonzalez\projects\forest-animals\bin\Debug\netcoreapp1.1\forest-animals.runtimeconfig.json
+C:\Users\nathan.gonzalez\projects\forest-animals\bin\Debug\netcoreapp1.1\forest-animals.runtimeconfig.dev.json
+C:\Users\nathan.gonzalez\projects\forest-animals\bin\Debug\netcoreapp1.1\forest-animals.dll
+C:\Users\nathan.gonzalez\projects\forest-animals\bin\Debug\netcoreapp1.1\forest-animals.pdb
+C:\Users\nathan.gonzalez\projects\forest-animals\obj\Debug\netcoreapp1.1\forest-animals.AssemblyInfo.cs
+C:\Users\nathan.gonzalez\projects\forest-animals\obj\Debug\netcoreapp1.1\forest-animals.dll
+C:\Users\nathan.gonzalez\projects\forest-animals\obj\Debug\netcoreapp1.1\forest-animals.pdb
